@@ -1,0 +1,17 @@
+export const dialog = {
+  DIALOG_CONTROL: "DIALOG_CONTROL",
+};
+export const drawer = {
+  DRAWER_CONTROL: "DRAWER_CONTROL",
+  DRAWER_MINIMIZE_CONTROL: "DRAWER_MINIMIZE_CONTROL",
+};
+export const app = {
+  SET_APP: "SET_APP",
+  UPDATE_APP: "UPDATE_APP",
+  MAX_MIN_SIDEBAR: "MAX_MIN_SIDEBAR",
+  SET_INSTITUTE_LINK: "SET_INSTITUTE_LINK",
+};
+export const list = {
+  SET_LIST: "SET_LIST",
+  UPDATE_LIST: "UPDATE_LIST",
+};

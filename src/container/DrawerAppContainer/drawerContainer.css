@@ -1,0 +1,65 @@
+.drawer-backdrop {
+  animation-name: drawer;
+  animation-duration: 5s;
+  width: 100%;
+  background: #f5f5f506;
+}
+
+@keyframes drawer {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.drawer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: 1300 !important;
+  background: #f5f5f5;
+  right: 0;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 10px, rgb(0 0 0 / 23%) 0px 3px 10px;
+  overflow: hidden;
+}
+
+.drawer-toolbar {
+  height: 50;
+  background-color: #717171;
+}
+
+.drawer-body {
+  background-color: #f5f5f5;
+}
+
+.sf-drawer-title {
+  font-size: 25px;
+  display: flex;
+}
+
+.drawer-button-right {
+  float: right;
+  right: 0;
+  position: absolute;
+}
+
+.minimized-drawer-bar {
+  box-sizing: border-box;
+  font-family: Arial;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 10px, rgb(0 0 0 / 23%) 0px 3px 10px;
+  width: 17%;
+  position: fixed;
+  z-index: 1500;
+  left: auto;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  border-radius: 5px 5px 0px 0px;
+  margin: 0px !important;
+}
+
+.drawer-body {
+  padding: 20px;
+}
