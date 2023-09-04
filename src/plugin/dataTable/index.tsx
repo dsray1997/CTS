@@ -21,7 +21,9 @@ export default function DataTable({ columns, rows }: any) {
       //_item.width = `calc(100/${tempColumns.length})`;
       _item.resizable = true;
       _item.renderEditCell = textEditor;
+      if(_item.name === 'id') {
       _item.renderCell= renderAactionLiink;
+      }
       _columns.push({ ..._item, name: _item.label });
     });
     return _columns;
