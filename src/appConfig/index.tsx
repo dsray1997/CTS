@@ -766,6 +766,28 @@ const data = {
           grid: 12,
         },
       ],
+      searchLeads:[
+        {
+          id: 165,
+          name: "startDate",
+          label: "Start Date",
+          type: "date",
+          isRequired: true,
+          isFilterable: true,
+          isHidden: true,
+          grid: 12,
+        },{
+          id: 166,
+          name: "endDate",
+          label: "End Date",
+          type: "date",
+          isRequired: true,
+          isFilterable: true,
+          isHidden: true,
+          grid: 12,
+        },
+
+      ],
     },
     rows: [
       {
