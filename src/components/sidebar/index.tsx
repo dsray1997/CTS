@@ -62,6 +62,7 @@ export default function Sidebar(props: any) {
               borderRadius: "10px",
               margin: "0 20px",
               marginTop: "30px",
+              alignItems: "center",
             }}
             selected
           >
@@ -79,9 +80,10 @@ export default function Sidebar(props: any) {
               </Avatar>
             </ListItemIcon>
             <ListItemText
-              primary="Raj & Raj"
-              style={{ fontSize: "15px", paddingLeft: "17px" }}
+              primary="Legal Bharat Services"
+              style={{ fontSize: "15px", paddingLeft: "17px", color:"#efefef", display:"inline-block"}}
               secondary={<React.Fragment>{"Indranil Biswas"}</React.Fragment>}
+             
             />
           </ListItemButton>
         </List>

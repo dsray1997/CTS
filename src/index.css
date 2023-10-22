@@ -41,7 +41,11 @@
 
 .MuiDrawer-paper {
   border: none;
-background:#ff000030;
+background:#1B1B4E;
+color: #fff;
+}
+.MuiDrawer-paper svg{
+  color: #fff;
 }
 .pre-wrap {
   overflow: hidden;
